@@ -1,0 +1,20 @@
+.products__list {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 30px;
+}
+.root {
+	padding-top: 100px;
+
+}
+.list__title {
+	font-size: 40px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.top {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+}

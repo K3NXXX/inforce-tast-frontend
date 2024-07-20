@@ -1,0 +1,20 @@
+.root {
+	border-radius: 20px;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: #1976d2;
+	color: white;
+	text-align: start;
+	display: flex;
+	flex-direction: column;
+	min-height: 300px;
+	gap: 30px;
+	transition: 0.3s ease;
+	cursor: pointer;
+	&:hover {
+		opacity: 0.7;
+	}
+	.product__name {
+		font-size: 20px;
+	}
+}

@@ -1,0 +1,9 @@
+.root {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	.logo {
+		max-width: 70px;
+	}
+}
